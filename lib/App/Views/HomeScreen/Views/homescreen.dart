@@ -39,12 +39,12 @@ class HomeScreen extends StatelessWidget {
                   )
                 : Center(
                     child: Container(
-                      height: 400,
+                      height: double.infinity,
                       width: double.infinity,
                       decoration: const BoxDecoration(
                         image: DecorationImage(
                           image: AssetImage(
-                            "lib/App/Utils/Assets/not_connected.gif",
+                            "lib/App/Utils/Assets/not_connected.jpeg",
                           ),
                           fit: BoxFit.cover,
                         ),
